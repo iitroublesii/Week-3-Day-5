@@ -13,3 +13,8 @@ console.log(totalScore);
 tags.forEach(function (tag) {
   console.log(tag);
 });
+
+const doubleScores = scores.map(function (score) {
+  return score * 2;
+});
+console.log(doubleScores);
